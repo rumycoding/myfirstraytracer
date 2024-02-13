@@ -1,6 +1,8 @@
 #include <catch2/catch_test_macros.hpp>
 #include "PhotonMap.hpp"
 
+// cmake tool test guide: https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md
+
 TEST_CASE("randomized partition", "[randomizedSelect]") {
     std::vector<Photon*> photonList;
 
